@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "2d38aae774d9a318006cf9d8",
+    "createdAt": "2026-05-03T19:37:52.711Z",
+    "updatedAt": "2026-05-03T19:37:52.719Z",
+    "user": "9afcb56d81c9cdfb4cdda8e8",
+    "content": "9fc38daec4a2459f5fad9123",
+    "platform": "instagram",
+    "scheduledAt": "2026-05-03T20:37:00.000Z",
+    "metadata": {
+      "note": ""
+    },
+    "cronJobId": "0 7 2 4 5 *"
+  },
+  {
+    "_id": "e053c596886f312bc71d4f95",
+    "createdAt": "2026-05-03T19:42:17.881Z",
+    "updatedAt": "2026-05-03T19:42:17.892Z",
+    "user": "9afcb56d81c9cdfb4cdda8e8",
+    "content": "6df8b622777e4fd12d3d29a0",
+    "platform": "instagram",
+    "scheduledAt": "2026-05-03T20:42:00.000Z",
+    "metadata": {
+      "note": ""
+    },
+    "cronJobId": "0 12 2 4 5 *"
+  }
+]
