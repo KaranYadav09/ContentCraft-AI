@@ -1,6 +1,6 @@
 # ContentAI — AI Content Generator & Scheduler
 
-A full-stack MERN application for generating platform-optimized social media content using Claude AI, with scheduling and analytics.
+A full-stack MERN application for generating platform-optimized social media content using AI, with scheduling and analytics.
 
 ## Tech Stack
 
@@ -8,8 +8,7 @@ A full-stack MERN application for generating platform-optimized social media con
 |----------|-----------|
 | Frontend | React 18 + Vite, React Router, Recharts, date-fns |
 | Backend  | Node.js, Express 4, Passport.js (JWT + OAuth) |
-| Database | MongoDB + Mongoose |
-| AI       | Anthropic Claude (claude-sonnet-4-20250514) |
+| Database | MongoDB + Mongoose  |
 | Scheduler| node-cron |
 | Auth     | JWT + Twitter OAuth2 + LinkedIn OAuth2 |
 
@@ -47,27 +46,13 @@ cd ai-content-scheduler
 npm run install:all
 ```
 
-### 2. Configure Environment
-
-Copy `.env.example` to `.env` and fill in:
-
-```env
-MONGODB_URI=mongodb://localhost:27017/ai-content-scheduler
-JWT_SECRET=your_super_secret_key
-ANTHROPIC_API_KEY=sk-ant-...          # Get from console.anthropic.com
-TWITTER_CLIENT_ID=...                 # Twitter Developer Portal
-TWITTER_CLIENT_SECRET=...
-LINKEDIN_CLIENT_ID=...                # LinkedIn Developer Portal
-LINKEDIN_CLIENT_SECRET=...
-```
-
-### 3. Start MongoDB
+### 2. Start MongoDB
 
 ```bash
 mongod --dbpath /data/db
 ```
 
-### 4. Run Development Servers
+### 3. Run Development Servers
 
 ```bash
 npm run dev
