@@ -40,7 +40,7 @@ function Layout({ children }) {
               background:"linear-gradient(135deg,#6366f1,#8b5cf6)",
               display:"flex", alignItems:"center", justifyContent:"center", fontSize:14,
             }}>✦</div>
-            <span style={{ fontWeight:800, fontSize:15, letterSpacing:-0.3 }}>ContentAI</span>
+            <span style={{ fontWeight:800, fontSize:15, letterSpacing:-0.3 }}>ContentCraft AI</span>
           </div>
 
           {/* Nav */}
